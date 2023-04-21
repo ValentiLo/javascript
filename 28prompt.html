@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Создайте веб-страницу с html-скелетом и тегом script.В коде для javascript инициализируйте две переменных для присваивания им значений — чисел, которое введет пользователь в модальные окна prompt(). Для преобразования в целый тип используйте функцию parseInt().Выполните произведение переменных, выдав результат с помощью метода document.write(). Для «красивого вывода» используйте несколько параметров, перечисленных через запятую:Протестируйте сценарий в браузере.Вспомним, что метод prompt() возвращает строковое значение. Поэтому для дальнейшей работы с числами, значения необходимо преобразовать в числовой тип:let a = parseInt(prompt("Введите первое число"));
+let b = parseInt(prompt("Введите второе число"));Преобразование также можно выполнить отдельным оператором:let a = prompt("Введите первое число");
+a = parseInt(a);document.write(a, " * ", b, " = ", a*b);
+
+    </p>
+    <script>
+        let a=parseInt(prompt("ВВедите первое число"));
+        let b=parseInt(prompt("ВВедите второе число"));
+        document.write(a,"*",b,"=",a*b)
+    </script>
+</body>
+</html>
